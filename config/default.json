@@ -1,0 +1,13 @@
+{
+  "email": {
+    "accounts": {
+      "fromEmail": "noreply@jalantechnologies.com",
+      "fromPhone": "+13235052526"
+    }
+  },
+  "otp": {
+    "length": 4,
+    "timeStep": 1,
+    "validityWindow": 43200
+  }
+}

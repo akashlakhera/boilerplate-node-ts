@@ -1,0 +1,21 @@
+{
+  "jwt": {
+    "key": "JWT_SECRET_KEY"
+  },
+  "mongoDb": {
+    "uri": "MONGODB_URI"
+  },
+  "sendgrid": {
+    "apiKey": "SENDGRID_API_KEY"
+  },
+  "twilio": {
+    "accountId": "TWILIO_ACCOUNT_ID",
+    "authToken": "TWILIO_AUTH_TOKEN"
+  },
+  "webApp": {
+    "baseUrl": "WEBAPP_BASE_URL"
+  },
+  "www": {
+    "port": "PORT"
+  }
+}

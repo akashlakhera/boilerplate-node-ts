@@ -1,0 +1,28 @@
+{
+  "DEFAULT_ERRORS": {
+    "RESOURCE_NOT_FOUND": "Requested resource not found.",
+    "AUTHENTICATION_FAILED": "Please login to access this resource.",
+    "EMAIL_VERIFICATION_FAILED": "The verification link is invalid or expired.",
+    "PHONE_VERIFICATION_FAILED": "The verification pin is invalid or expired.",
+    "INTERNAL_SERVER_ERROR": "Internal server error. Please try again later.",
+    "VALIDATION_FAILED": "Validation failed. Please modify the request and try again.",
+    "LOGIN_AUTHENTICATION_FAILED": "Invalid credentials. Please check your email and password and try again."
+  },
+  "VALIDATION_ERRORS": {
+    "INVALID_FIRSTNAME": "Please specify first name.",
+    "INVALID_LASTNAME": "Please specify last name.",
+    "INVALID_EMAIL": "Please specify valid email address",
+    "INVALID_MOBILE_PHONE": "Please specify valid mobile phone number",
+    "PASSWORD_MISSING": "Please provide a password."
+  },
+  "DUPLICATE_FIELD_ERRORS": {
+    "ACCOUNT": {
+      "EMAIL": "The email you provided is already taken. Please provide a different one.",
+      "MOBILE_PHONE": "The phone number you provided is already taken. Please provide a different one."
+    }
+  },
+  "PHONE_VERIFICATION_MESSAGE": "Welcome #{firstName}. Your One-time pin is #{otp}.",
+  "MESSAGES": {
+    "HEALTHCHECK": "OK"
+  }
+}

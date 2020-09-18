@@ -1,0 +1,38 @@
+{
+  "name": "node-app",
+  "env": {
+    "MONGODB_URI": {
+      "description": "Connection string to connect to MongoDB database",
+      "required": true
+    },
+    "NODE_ENV": {
+      "description": "Node environment",
+      "required": true
+    },
+    "NODE_CONFIGENV": {
+      "description": "Configuration environment",
+      "required": true
+    },
+    "JWT_SECRET_KEY": {
+      "description": "Secret key to encode/decode JWT token",
+      "generator": "secret",
+      "required": true
+    },
+    "SENDGRID_API_KEY": {
+      "description": "API Key for Sendgrid to send emails",
+      "required": true
+    },
+    "TWILIO_ACCOUNT_ID": {
+      "description": "Twilio account id",
+      "required": true
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Twilio auth key",
+      "required": true
+    },
+    "WEBAPP_BASE_URL": {
+      "description": "Base URL for web application",
+      "required": false
+    }
+  }
+}
