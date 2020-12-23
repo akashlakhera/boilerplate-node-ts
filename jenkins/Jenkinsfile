@@ -44,9 +44,9 @@ pipeline {
               }
             }
           }
-        }
-        steps {
-          echo 'Feature deployed'
+          steps {
+            echo 'Feature deployed'
+          }
         }
     }
 }
